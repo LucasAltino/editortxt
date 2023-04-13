@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #319190;
+    height: 90px;
+    width: 100vw;
+}
+header img{
+    height: 80px;
+    align-items: center;
+    margin-left: 20px;
+
+}
+#modos{
+    height: 30px;
+    width: 40px;
+}
+
+#header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#modos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+#modos button{
+    border: none;
+    background-color: #36802d;
+    color: white;
+    padding: 15px;
+    border-radius: 15px;
+    margin-top: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 1em;
+}
+
+footer{
+    margin-top: 20px;
+    background-color: #319190;
+    height: 60px;
+    width: 100vw;
+    color: white;
+    font-size: 1.2em;
+    font-weight: bolder;
+}
+#footer p{
+    margin-left: 20px;
+    margin-top: 40px;
+    align-items: center center;
+}
